@@ -57,4 +57,4 @@ class CreateTopicForm(forms.Form):
     Fields:
         topic (str): The name of the topic.
     """
-    topic = forms.CharField(max_length=20, label='Topic Name', widget=textinput_widget)
+    topic = forms.CharField(max_length=40, label='Topic Name', widget=textinput_widget)

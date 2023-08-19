@@ -6,7 +6,6 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.urls import reverse_lazy
 from django.db.models import Count
 from django.views import View
-from django.contrib.auth.mixins import LoginRequiredMixin
 from django.core.exceptions import FieldError
 from leetquizzer.models import Problem, Topic, Difficulty
 from leetquizzer.forms import CreateProblemForm, CreateTopicForm, UpdateProblemForm
@@ -100,7 +99,7 @@ class ProblemMenu(View):
         return redirect(self.success_url)
 
 
-class CreateProblem(LoginRequiredMixin, View):
+class CreateProblem(View):
     """
     View class for creating a new problem.
 
@@ -174,7 +173,7 @@ class CreateProblem(LoginRequiredMixin, View):
         return redirect(self.success_url)
 
 
-class UpdateProblem(LoginRequiredMixin, View):
+class UpdateProblem(View):
     """
     A class-based view for updating a problem object.
 
@@ -225,7 +224,7 @@ class UpdateProblem(LoginRequiredMixin, View):
         return redirect(self.success_url)
 
 
-class DeleteProblem(LoginRequiredMixin, View):
+class DeleteProblem(View):
     """
     Class to handle deleting a problem
     """

@@ -4,7 +4,7 @@ All utility functions used by leetquizzer application's views.py
 import ast
 import requests
 from requests.exceptions import ReadTimeout
-from website.settings import LEETCODE_URL
+from flashcards.settings import LEETCODE_URL
 
 def get_question_list(problem):
     """

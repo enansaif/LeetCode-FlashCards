@@ -39,9 +39,7 @@
                 <a href="{% url 'leetquizzer:update_problem' problem.pk %}" class="link-dark px-2" title="Update Problem">
                   <i class="bi bi-gear"></i>
                 </a>
-                {% if user.is_authenticated %}
                 {% include "leetquizzer/problem_delete.html" %}
-                {% endif %}
               </div>
             </td>
         </tr>
