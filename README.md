@@ -1,6 +1,11 @@
 # LeetCode-FlashCards
 A Django web app for keeping track of solved questions for easy review.
 
+# How it works
+You only need to provide the problem link, a topic to group problems by, 
+and your solutions to the problem. The app will automatically generate a 
+page for each problems by making GraphQL queries to leetcode/graphql server.
+
 # Installation Guide
 
 ## Prerequisites
@@ -15,7 +20,7 @@ A Django web app for keeping track of solved questions for easy review.
 1. **Clone the Repository**
 
    ```
-   git clone 
+   git clone https://github.com/enansaif/flashcards.git
    ```
 
 2. **Create a Virtual Environment**
