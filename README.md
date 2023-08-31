@@ -1,12 +1,12 @@
 # LeetCode-FlashCards
 A Django web app for keeping track of solved questions for easy review.
 
-# How it works
+## How it works
 You only need to provide the problem link, a topic to group problems by, 
 and your solutions to the problem. The app will automatically generate a 
 page for each problems by making GraphQL queries to leetcode/graphql server.
 
-# Installation Guide
+## Installation Guide
 
 ## Prerequisites
 
@@ -77,8 +77,6 @@ page for each problems by making GraphQL queries to leetcode/graphql server.
    You can access the Django admin panel by visiting `http://localhost:8000/admin/` and logging in with the superuser credentials you created earlier.
 
 ## License
-
-This Django app is provided under the [MIT License](LICENSE). You are free to use, modify, and distribute it as per the terms of the license.
 
 ## Support and Feedback
 
