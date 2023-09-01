@@ -6,8 +6,6 @@ You only need to provide the problem link, a topic to group problems by,
 and your solutions to the problem. The app will automatically generate a 
 page for each problems by making GraphQL queries to leetcode/graphql server.
 
-## Installation Guide
-
 ## Prerequisites
 
 - Python (3.6 or higher)
@@ -76,10 +74,8 @@ page for each problems by making GraphQL queries to leetcode/graphql server.
 
    You can access the Django admin panel by visiting `http://localhost:8000/admin/` and logging in with the superuser credentials you created earlier.
 
-## License
+## Feedback
 
-## Support and Feedback
+If you encounter any issues or have questions, please feel free to [open an issue](https://github.com/enansaif/flashcards/issues) on the GitHub repository.
 
-If you encounter any issues or have questions, please feel free to [open an issue](https://github.com/your-username/your-django-app/issues) on the GitHub repository.
-
-Happy coding! 🚀
+TY! 🚀

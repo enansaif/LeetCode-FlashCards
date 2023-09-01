@@ -24,7 +24,7 @@ LEETCODE_URL = "https://leetcode.com/graphql/"
 SECRET_KEY = 'django-insecure-+5j#8*b)o@^^^(88h9r7z1dr$so3fglm2^4w^u83b^+ufj&b8q'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
